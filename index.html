@@ -3,93 +3,189 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Cryptowall - Protect yourself agains Crypto-SCAM</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-		.button {
-			margin-bottom: 25px;}
-	</style>
+     <script src="http://bulma.io/vendor/clipboard-1.7.1.min.js"></script>
+<script src="http://bulma.io/lib/main.js"></script>
+	  <style>
+		  .browsers {
+			  margin-top: 50px;
+		  }
+		  .browserb {
+			  margin-top: 25px;
+		  }
+		  .afterb {
+			  max-width: 50%;
+			  text-align: center;
+			  margin: 0 auto;
+			  margin-top: 50px;
+		  }
+		  .label {
+			  color:  white;
+		  }
+		  .emailf {
+			  text-align: left !important;
+			  margin-top: 25px;
+		  }
+		  .afterb h1 {
+			  font-size: 43px !important;
+		  }
+		  .donation {
+			  text-align: center;
+		  }
+		  .donation h1 {
+			  font-size: 24px;
+			  font-weight: bold;
+		  }
+	  </style>
   </head>
   <body>
-  <div class="container is-fullhd">
-<section class="hero">
+<section class="hero is-dark is-fullheight is-bold">
+  <!-- Hero header: will stick at the top -->
+  <div class="hero-head is-bold">
+    <header class="nav">
+      <div class="container">
+        <div class="nav-left">
+          <a class="nav-item">
+            CRYPTOWALL
+          </a>
+        </div>
+        <span class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="nav-right nav-menu">
+          <a class="nav-item">
+            HOME
+          </a>
+          <a class="nav-item">
+            Download
+          </a>
+          <a class="nav-item">
+            Supporter
+          </a>
+          <span class="nav-item">
+            <a class="button is-info is-inverted">
+              <span class="icon">
+                <i class="fa fa-flag"></i>
+              </span>
+              <span>REPORT SCAM</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
   <div class="hero-body">
-    <div class="container">
+    <div class="container has-text-centered">
       <h1 class="title">
-        Report SCAM Sites from the Crytpospace and protect yourself!
+        CRYPTOWALL
       </h1>
       <h2 class="subtitle">
-        Download our Browser Extensions to stay save with your daily crypto work!
+        Protect yourself against SCAM Sites in the Cryptospace with a simple Browser-Extension
       </h2>
-    </div>
+      <h3>-- Click the Browser-Icon to install it on your Browser --</h3>
+      <div class="columns browsers">
+  <div class="column">
+    <img src="images/chrome.png" height="125" width="125">
   </div>
+  <div class="column">
+    <img src="images/firefox.png" height="125" width="125">
+  </div>
+  <div class="column">
+    <img src="images/opera.png" height="125" width="125">
+  </div>
+  <div class="column">
+    <img src="images/edge.png" height="125" width="125">
+  	</div>
+	</div>
+   <!-- After Browser -->
+   <div class="afterb">
+   <h1>REPORT DOMAIN</h1>
+<form action="https://formspree.io/moeqqbwm" method="POST"> 
+  <input type="text" name="_gotcha" style="display: none"> 
+  <div class="field">
+  <label class="label emailf">Domains</label>
+  <div class="control">
+    <textarea class="textarea" name="domains" placeholder="Please enter 1 Domain per line"></textarea>
+  </div>
+  <div class="field emailf">
+  <label class="label">Please enter your Email Address in case we have a question! It's not required!</label>
+  <div class="control">
+    <input class="input" name="email" type="text" placeholder="E-Mail Address">
+  </div>
+  <input type="hidden" name="_next" value="https://cryptowall.ch/thanks.html" />
+</div>
+</div>
+
+  <!-- your other form fields go here --> 
+
+  <button class="button is-black" type="submit">Send Report</button> 
+</form>
+   <!-- After Browser Ende -->
+    </div>
+  	</div>
+  		</div>
+  		  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a>Donations are always appreciated!</a></li>
+          <li><a class="modal-button" data-target="btc">BTC: 3NP73gUxJ6UirB9iQKQTiXyEkKTWdbrfX9</a></li>
+          <li><a>ETH:</a></li>
+          <li><a class="modal-button" data-target="ltc">LTC: MTRoz1RFSwL9t2PzhFKur7qSDmrkarzRFg</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Donation Infos -->
+  <div id="btc" class="modal">
+    <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box">
+    <div class="donation">
+    	<h1>Donate Bitcoin</h1>
+    	<p>-----------------------------------</p>
+    	<h2>3NP73gUxJ6UirB9iQKQTiXyEkKTWdbrfX9</h2>
+    	<p><img src="images/donate_bitcoin.png"></p>
+    </div>
+	  </div>
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+  <div id="eth" class="modal">
+    <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box">
+    <div class="donation">
+    	<h1>Donate Bitcoin</h1>
+    	<p>-----------------------------------</p>
+    	<h2>3NP73gUxJ6UirB9iQKQTiXyEkKTWdbrfX9</h2>
+    	<p><img src="images/donate_bitcoin.png"></p>
+    </div>
+	  </div>
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+  <div id="ltc" class="modal">
+    <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box">
+    <div class="donation">
+    	<h1>Donate Litecoin</h1>
+    	<p>-----------------------------------</p>
+    	<h2>MTRoz1RFSwL9t2PzhFKur7qSDmrkarzRFg</h2>
+    	<p><img src="images/donate_litecoin.png"></p>
+    </div>
+	  </div>
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
 </section>
 
-<!-- Download Colum and Info -->
- <div class="columns">
-  <div class="column auto">
-  	<div class="field">
-  <label class="label">Name</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="Text input">
-  </div>
-</div>
-
-<div class="field">
-  <label class="label">Username</label>
-  <div class="control has-icons-left has-icons-right">
-    <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-    <span class="icon is-small is-left">
-      <i class="fa fa-user"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fa fa-check"></i>
-    </span>
-  </div>
-  <p class="help is-success">This username is available</p>
-</div>
-  </div>
-  <div class="column is-one-quarter">
-  <p><a class="button is-large">
-    <span class="icon is-medium">
-      <i class="fa fa-chrome"></i>
-    </span>
-    <span>GitHub</span>
-	  </a></p>
-	  <p>  <a class="button is-large">
-    <span class="icon is-medium">
-      <i class="fa fa-firefox"></i>
-    </span>
-    <span>GitHub</span>
-  </a></p>
-  <p>
-  	  <a class="button is-large">
-    <span class="icon is-medium">
-      <i class="fa fa-safari"></i>
-    </span>
-    <span>GitHub</span>
-  </a>
-  </p>
-  </div>
-</div>
-
-<!-- Footer Start -->
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>
-        Copyright 2017 by <strong>Cryptoprotect.tech</strong>
-      </p>
-      <p>
-        <a class="icon" href="https://github.com/jgthms/bulma">
-          <i class="fa fa-github"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
-	  </div>
   </body>
 </html>
