@@ -38,9 +38,19 @@
 			  font-size: 24px;
 			  font-weight: bold;
 		  }
+		  .donationbox {
+			  width: 30%;
+			  margin: 0 auto;
+		  }
+		  .donationbox h1 {
+			  font-size: 24px;
+			  text-align: center;
+			  padding-bottom: 15px;
+		  }
+		  
 	  </style>
   </head>
-  <body>
+  <body link="#C0C0C0" vlink="#808080">
 <section class="hero is-dark is-fullheight is-bold">
   <!-- Hero header: will stick at the top -->
   <div class="hero-head is-bold">
@@ -130,13 +140,24 @@
     </div>
   	</div>
   		</div>
+  		<!-- Donation Box Start-->
+ 		  <div class="box donationbox">
+ 		  	<ul>
+          		<li><a><h1>Donations are always appreciated!</h1></a></li>
+          		<li><a class="modal-button" data-target="btc">BTC: 3NP73gUxJ6UirB9iQKQTiXyEkKTWdbrfX9</a></li>
+          		<li><a class="modal-button" data-target="eth">ETH: 0x6dB54A32302835832155227B6Ce38825Da412a63</a></li>
+          		<li><a class="modal-button" data-target="ltc">LTC: MTRoz1RFSwL9t2PzhFKur7qSDmrkarzRFg</a></li>
+       		</ul>
+ 		  </div>
+ 		  
+ 		  <!-- Donation Box End -->
   		  <div class="hero-foot">
-    <nav class="tabs is-boxed is-fullwidth">
+    <nav class="tabs is-boxed full-width">
       <div class="container">
         <ul>
           <li class="is-active"><a>Donations are always appreciated!</a></li>
           <li><a class="modal-button" data-target="btc">BTC: 3NP73gUxJ6UirB9iQKQTiXyEkKTWdbrfX9</a></li>
-          <li><a>ETH:</a></li>
+          <li><a class="modal-button" data-target="eth">ETH: 0x6dB54A32302835832155227B6Ce38825Da412a63</a></li>
           <li><a class="modal-button" data-target="ltc">LTC: MTRoz1RFSwL9t2PzhFKur7qSDmrkarzRFg</a></li>
         </ul>
       </div>
@@ -162,10 +183,10 @@
   <div class="modal-content">
     <div class="box">
     <div class="donation">
-    	<h1>Donate Bitcoin</h1>
+    	<h1>Donate Ethereum</h1>
     	<p>-----------------------------------</p>
-    	<h2>3NP73gUxJ6UirB9iQKQTiXyEkKTWdbrfX9</h2>
-    	<p><img src="images/donate_bitcoin.png"></p>
+    	<h2>0x6dB54A32302835832155227B6Ce38825Da412a63</h2>
+    	<p><img src="images/donate_ethereum.png"></p>
     </div>
 	  </div>
   </div>
