@@ -4,13 +4,13 @@ Cryptowall protects you against SCAM Sites in the Cryptospace. If you try to rea
 
 If you want to report a domain which is not in our database you can do it on. https://www.cryptowall.ch
 
-Chrome Extension: https://chrome.google.com/webstore/detail/cryptowall/hbbfjbkaaakgadoacgeknpmlfjaoldfg
-Firefox Extension: https://addons.mozilla.org/en-US/firefox/addon/cryptowall/
-Opera Extension: In Review
-Edge Extension: In Development
-Safari Extension: In Development
+- Chrome Extension: https://chrome.google.com/webstore/detail/cryptowall/hbbfjbkaaakgadoacgeknpmlfjaoldfg
+- Firefox Extension: https://addons.mozilla.org/en-US/firefox/addon/cryptowall/
+- Opera Extension: In Review
+- Edge Extension: In Development
+- Safari Extension: In Development
 
-- Changelog
+*Changelog:*
 
 0.0.14
 - Icon Update
