@@ -1,4 +1,5 @@
 # cryptowall.ch
+[![Build Status]
 
 Cryptowall protects you against SCAM Sites in the Cryptospace. If you try to reach a suspicious site, we show you a warning, and you can not enter the site. The database grows each day, and we improve the add-ons.
 
@@ -11,6 +12,12 @@ If you want to report a domain which is not in our database you can do it on. ht
 - Safari Extension: In Development
 
 *Changelog:*
+
+
+0.0.15
+- Added "New Domain Registration Scanner"
+- Database duplicate verification added
+- Cleanup Foldernames an structure
 
 0.0.14
 - Icon Update
