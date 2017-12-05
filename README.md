@@ -6,11 +6,13 @@ If you want to report a domain which is not in our database you can do it on. ht
 
 - Chrome Extension: https://chrome.google.com/webstore/detail/cryptowall/hbbfjbkaaakgadoacgeknpmlfjaoldfg
 - Firefox Extension: https://addons.mozilla.org/en-US/firefox/addon/cryptowall/
-- Opera Extension: In Review
-- Edge Extension: 24.09.2017 Submitted for Review
+- Opera Extension: https://addons.opera.com/en/extensions/details/cryptowall
+- Edge Extension: Waiting for acceptance from Microsoft.
 - Safari Extension: In Development
 
 *Changelog:*
+
+1.0 - Set all Versions to a new base setup.
 
 
 0.0.15
