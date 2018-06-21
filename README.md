@@ -12,7 +12,12 @@ If you want to report a domain which is not in our database you can do it on. ht
 
 *Changelog:*
 
-1.0 - Set all Versions to a new base setup.
+1.1 
+- Update Website & Database with around 1k new gathered data-presets
+- Try again for Edge Extension
+
+1.0 
+- Set all Versions to a new base setup.
 
 
 0.0.15
